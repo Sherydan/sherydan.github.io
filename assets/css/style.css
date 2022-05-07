@@ -18,55 +18,69 @@
   src: url("../fonts/SourceCodePro-Regular.ttf") format("truetype");
 }
 
+/* Needed to overwirte default bootstrap font */
 body {
   font-family: "montserrat-md", sans-serif !important;
 }
+
+/* Main section image cover */
 .cover {
   height: 100vh;
   width: 100%;
   background-size: cover;
-
   background-image: url(../img/bg-2.jpg);
   background-attachment: fixed;
 }
 
+/* transparent navbar */
 .navbar {
   background-color: transparent;
 }
 
+/* custom color transparency (same as background) */
 .transparent-custom-color {
-  background: rgba(24, 24, 24, 0.7); 
+  background: rgba(24, 24, 24, 0.7);
 }
 
+/* pushing main text section to bottom */
 .main-text {
   padding-top: 30vh;
 }
 
+/* overwrite default border radius from bootstrap */
 #services .card {
   border-radius: 2rem !important;
 }
 
+/* font family to typed section on main */
 .typed {
   font-family: source-code-md;
 }
 
+/* main section name text size */
 #main-name {
   font-size: 6rem;
 }
 
+/* secondary typed text size */
 #main-name-desc {
   font-size: 3rem;
 }
 
+/* adding a margin between about me section and other sections */
 #about-me .container {
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
 
-#services, #tecnologies, #portfolio {
-    margin-bottom: 10vh;
+/* added a margin bottom to every section */
+#services,
+#tecnologies,
+#portfolio {
+  margin-bottom: 10vh;
 }
 
+/* disabled text decoration to links */
 a,
 a:hover,
 a:visited,
@@ -75,10 +89,9 @@ a:active {
   text-decoration: none;
 }
 
+/* fix for carousel not centering */
 .container-carousel {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-

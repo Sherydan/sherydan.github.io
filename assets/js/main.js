@@ -1,9 +1,9 @@
 
 
+/* COPY PASTE MODE ON HERE */
 
 (function() {
   "use strict";
-
   /**
    * Easy selector helper function
    */
