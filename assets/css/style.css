@@ -95,3 +95,9 @@ a:active {
   align-items: center;
   justify-content: center;
 }
+
+.contact-form{
+  padding: 1rem;
+  margin-bottom: 1rem;
+  
+}
